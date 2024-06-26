@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Manjari&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <script src="src/js/mobile.js" defer></script>
+    <script src="src/js/main.js" defer></script>
+
+    <title>Low Rush Records</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="src/img/lowrush.svg" alt="Low Rush Records Logo">
+            </div>
+
+            <ul class="desktop-categories-list" id="desktopMenu">
+                <li><a href="#ourProducts" class="category-link">Produtos</a></li>
+                <li><a href="#aboutUs" class="category-link">Sobre nós</a></li>
+                <li><a href="#ourArtists" class="category-link">Artistas</a></li>
+            </ul>
+
+            <div class="mobile-actions">
+                <img class="search" src="src/img/search.svg" alt="Pesquisar">
+                <img class="hamburguer" id="mobileBtn" src="src/img/hamburguer.svg" alt="Hamburguer Icon">
+            </div>
+        </nav>
+
+        <ul class="mobile-categories-list hide" id="mobileMenu">
+            <li><a href="#ourProducts" class="category-link">Produtos</a></li>
+            <li><a href="#aboutUs" class="category-link">Sobre nós</a></li>
+            <li><a href="#ourArtists" class="category-link">Artistas</a></li>
+        </ul>
+    </header>
+
+    <main id="mainContainer" class="container">
+        <section id="aboutUs" class="about-us">
+            <h2 class="about-us-title">Low Rush Records</h2>
+            <p class="about-us-p">Nós nos esforçamos para criar a música mais icônica que capture os tempos de uma forma
+                que nunca existiu antes e para alcançar fãs ao redor do mundo através de padrões elevados e melhoria
+                constante.</p>
+        </section>
+
+        <section id="ourProducts" class="our-products">
+            <h2 class="products-title">Alguns de nossos produtos</h2>
+            <p class="products-p">Estarão disponíveis com quantidades limitadas na sala 7 na nossa eletiva ( Peças
+                limitadas )</p>
+
+        </section>
+        <div class="products-container">
+            <button class="previous">
+                < </button>
+                    <button class="next"> > </button>
+                    <div class="wrapper">
+                        <div class="carousel">
+                            <img src="src/img/camiseta_frente_preta.png" class="item" alt="">
+                            <img src="src/img/camiseta_costas_preta.png" class="item" alt="">
+                            <img src="src/img/camiseta_frente_branca.png" class="item" alt="">
+                            <img src="src/img/camiseta_costas_branca.png" class="item" alt="">
+                        </div>
+                    </div>
+        </div>
+
+        <section id="ourArtists" class="our-artists">
+            <h2 class="our-artists-title">Os artistas da Low Rush</h2>
+
+            <div class="artists-wrapper">
+                <div class="artist-infos">
+                    <img src="src/img/morwes.svg" alt="Foto do Morwes" class="artist-pic">
+
+                    <div class="infos">
+                        <h3 class="artist-name">Morwez</h3>
+                        <p class="artist-p">Cantor e Compositor</p>
+                    </div>
+                </div>
+                <div class="artist-infos">
+                    <img src="src/img/agate.svg" alt="Foto do Agatê" class="artist-pic">
+
+                    <div class="infos">
+                        <h3 class="artist-name">Agatê</h3>
+                        <p class="artist-p">Cantor e Compositor</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
